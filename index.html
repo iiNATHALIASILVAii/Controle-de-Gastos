@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Controle de Gastos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
   </head>
   <body>
@@ -18,8 +18,10 @@
           <option value="Lazer">Lazer</option>
           <option value="Outros">Outros</option>
         </select>
-        <button type="button" onclick="adicionarGasto()">Adicionar</button>
-        <button type="button" onclick="resetPag()">Limpar</button>
+        <div class="botoes-container">
+          <button type="button" onclick="adicionarGasto()">Adicionar</button>
+          <button type="button" onclick="resetPag()" class="botao-secundario">Limpar</button>
+        </div>
       </form>
       <p id="Alimentação">Alimentação: R$ 0,00</p>
       <p id="Transporte">Transporte: R$ 0,00</p>

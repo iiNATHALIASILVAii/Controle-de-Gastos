@@ -44,6 +44,15 @@ input::placeholder {
   color: #aaa;
 }
 
+.botoes-container {
+  display: flex;
+  gap: 16px; /* Espaçamento entre os botões */
+}
+
+.botoes-container button {
+  flex-grow: 1; /* Faz os botões crescerem para preencher o espaço */
+}
+
 button {
   padding: 12px;
   background-color: #007bff;
@@ -59,6 +68,15 @@ button:hover {
   background-color: #0056b3; /* Cor mais escura ao passar o mouse */
 }
 
+/* Estilo para o botão secundário "Limpar" */
+.botao-secundario {
+  background-color: #6c757d; /* Um cinza neutro */
+}
+
+.botao-secundario:hover {
+  background-color: #5a6268; /* Uma tonalidade mais escura para o hover */
+}
+
 /* Estilização dos Resultados */
 p {
   background-color: #f8f9fa; /* Fundo cinza claro para os itens */
@@ -71,7 +89,7 @@ p {
 
 /* Estilo do Total */
 p:last-of-type {
-  background-color: #e9f5ff; /* Fundo azul claro para o total */
+  background-color: #b6d5ee; /* Fundo azul claro para o total */
   font-weight: bold;
   border: 1px solid #cce5ff;
 }
