@@ -1,0 +1,77 @@
+/* Body e Layout */
+body {
+  font-family: sans-serif;
+  background-color: #f0f8ff; /* Cor de fundo suave */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  width: 450px; /* Largura fixa do container */
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 24px;
+}
+
+/* Formulário e Elementos de Entrada */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input,
+select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilização dos Resultados */
+p {
+  background-color: #f8f9fa; /* Fundo cinza claro para os itens */
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+/* Estilo do Total */
+p:last-of-type {
+  background-color: #e9f5ff; /* Fundo azul claro para o total */
+  font-weight: bold;
+  border: 1px solid #cce5ff;
+}
